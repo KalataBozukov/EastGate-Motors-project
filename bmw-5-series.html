@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Подробна информация за BMW 530i xDrive от EastGate Motors.">
+    <title>BMW 530i xDrive | EastGate Motors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="site-nav container" aria-label="Основна навигация">
+            <a class="brand" href="index.html" aria-label="EastGate Motors - начало">
+                <img class="site-logo" src="images/logo.png" alt="Лого на EastGate Motors">
+                <span>EastGate Motors</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="index.html#european-cars">Европейски марки</a></li>
+                <li><a href="index.html#korean-cars">Корейско производство</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <nav class="breadcrumb" aria-label="Навигационна пътека">
+            <a href="index.html">← Обратно към всички автомобили</a>
+        </nav>
+
+        <section class="product-hero">
+            <figure class="product-figure">
+                <img src="images/bmw-5-series.jpg" alt="Бяло BMW 530i от поколение G30">
+            </figure>
+
+            <div class="product-summary">
+                <h1>BMW 530i xDrive</h1>
+                <p class="lead">Динамичен премиум седан с бензинов турбо двигател, интелигентно двойно предаване и прецизно управление.</p>
+                <span class="price price--large">32 700 €</span>
+                <dl class="spec-grid">
+                    <div><dt>Година</dt><dd>2020</dd></div>
+                    <div><dt>Пробег</dt><dd>52 400 км</dd></div>
+                    <div><dt>Двигател</dt><dd>2.0 турбо бензин</dd></div>
+                    <div><dt>Скоростна кутия</dt><dd>8-степенен автоматик</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="detail-grid">
+            <article class="description-panel">
+                <h2>Подробно описание</h2>
+                <p>BMW 530i xDrive е създадено за шофьори, които търсят едновременно комфорт и динамика. Турбо бензиновият двигател реагира бързо, а системата xDrive разпределя сцеплението между четирите колела според условията на пътя.</p>
+                <p>Кабината е ориентирана към водача и предлага отлична видимост към дигиталното табло и централния екран. Пространството на втория ред и големият багажник правят модела практичен избор за семейни и служебни пътувания.</p>
+                <ul class="feature-list">
+                    <li>Система xDrive</li>
+                    <li>Дигитално табло</li>
+                    <li>Навигационна система</li>
+                    <li>Паркинг сензори</li>
+                    <li>Електрически седалки</li>
+                    <li>Безключов достъп</li>
+                </ul>
+            </article>
+
+            <aside class="panel">
+                <h2>Форма за закупуване</h2>
+                <form id="purchase-form" class="form-stack" action="#" method="post">
+                    <div class="form-field">
+                        <label for="buyer-name">Име</label>
+                        <input id="buyer-name" name="name" type="text" autocomplete="name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="buyer-address">Адрес</label>
+                        <textarea id="buyer-address" name="address" autocomplete="street-address" required></textarea>
+                    </div>
+                    <p class="form-note">След изпращане ще получите съобщение за потвърждение.</p>
+                    <button class="button" type="submit">Изпрати поръчка</button>
+                </form>
+            </aside>
+        </section>
+
+        <section class="reviews-grid">
+            <div class="reviews-panel">
+                <h2>Потребителски ревюта</h2>
+                <div class="reviews-list">
+                    <article class="review">
+                        <header><strong>Николай Димитров</strong><span class="stars" aria-label="5 от 5 звезди">★★★★★</span></header>
+                        <p>Автомобилът е стабилен и много приятен за управление. xDrive дава увереност при лошо време.</p>
+                    </article>
+                    <article class="review">
+                        <header><strong>Елена Тодорова</strong><span class="stars" aria-label="4 от 5 звезди">★★★★☆</span></header>
+                        <p>Страхотен интериор и достатъчно място за семейството. Мултимедията се използва лесно.</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Изпратете ревю</h2>
+                <form id="review-form" class="form-stack" action="#" method="post">
+                    <div class="form-field">
+                        <label for="review-comment">Коментар</label>
+                        <textarea id="review-comment" name="comment" required></textarea>
+                    </div>
+                    <p class="form-note">Новото ревю ще се появи най-отгоре.</p>
+                    <button class="button" type="submit">Изпрати ревю</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content container">
+            <p>© 2026 EastGate Motors</p>
+            <p>Цените, характеристиките и офертите са примерни.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Подробна информация за Mercedes-Benz E 220 d от EastGate Motors.">
+    <title>Mercedes-Benz E 220 d | EastGate Motors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="site-nav container" aria-label="Основна навигация">
+            <a class="brand" href="index.html" aria-label="EastGate Motors - начало">
+                <img class="site-logo" src="images/logo.png" alt="Лого на EastGate Motors">
+                <span>EastGate Motors</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="index.html#european-cars">Европейски марки</a></li>
+                <li><a href="index.html#korean-cars">Корейско производство</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <nav class="breadcrumb" aria-label="Навигационна пътека">
+            <a href="index.html">← Обратно към всички автомобили</a>
+        </nav>
+
+        <section class="product-hero">
+            <figure class="product-figure">
+                <img src="images/mercedes-e-class.jpg" alt="Черен Mercedes-Benz E-Class E 220 d">
+            </figure>
+
+            <div class="product-summary">
+                <h1>Mercedes-Benz E 220 d</h1>
+                <p class="lead">Комфортен бизнес седан с икономичен дизелов двигател, плавна автоматична трансмисия и висококачествен интериор.</p>
+                <span class="price price--large">30 600 €</span>
+                <dl class="spec-grid">
+                    <div><dt>Година</dt><dd>2021</dd></div>
+                    <div><dt>Пробег</dt><dd>64 000 км</dd></div>
+                    <div><dt>Двигател</dt><dd>2.0 дизел</dd></div>
+                    <div><dt>Скоростна кутия</dt><dd>9-степенен автоматик</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="detail-grid">
+            <article class="description-panel">
+                <h2>Подробно описание</h2>
+                <p>Mercedes-Benz E 220 d съчетава представителен дизайн и удобство за дълги пътувания. Двулитровият дизелов двигател предлага добър баланс между мощност и разход на гориво, а деветстепенната автоматична трансмисия сменя предавките плавно.</p>
+                <p>Салонът разполага с дигитално табло, навигационна система и качествени материали. Автомобилът е примерна оферта от корейския пазар и е подходящ както за ежедневни пътувания, така и за бизнес употреба.</p>
+                <ul class="feature-list">
+                    <li>LED светлини</li>
+                    <li>Кожен салон</li>
+                    <li>Камера за заден ход</li>
+                    <li>Адаптивен круиз контрол</li>
+                    <li>Подгряване на седалките</li>
+                    <li>Двузонов климатроник</li>
+                </ul>
+            </article>
+
+            <aside class="panel">
+                <h2>Форма за закупуване</h2>
+                <form id="purchase-form" class="form-stack" action="#" method="post">
+                    <div class="form-field">
+                        <label for="buyer-name">Име</label>
+                        <input id="buyer-name" name="name" type="text" autocomplete="name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="buyer-address">Адрес</label>
+                        <textarea id="buyer-address" name="address" autocomplete="street-address" required></textarea>
+                    </div>
+                    <p class="form-note">След изпращане ще получите съобщение за потвърждение.</p>
+                    <button class="button" type="submit">Изпрати поръчка</button>
+                </form>
+            </aside>
+        </section>
+
+        <section class="reviews-grid">
+            <div class="reviews-panel">
+                <h2>Потребителски ревюта</h2>
+                <div class="reviews-list">
+                    <article class="review">
+                        <header><strong>Иван Петров</strong><span class="stars" aria-label="5 от 5 звезди">★★★★★</span></header>
+                        <p>Много комфортен автомобил. Купето е тихо, а разходът е отличен за този клас.</p>
+                    </article>
+                    <article class="review">
+                        <header><strong>Мария Георгиева</strong><span class="stars" aria-label="5 от 5 звезди">★★★★★</span></header>
+                        <p>Просторен и елегантен седан. Особено ми харесват удобните седалки и плавният автоматик.</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Изпратете ревю</h2>
+                <form id="review-form" class="form-stack" action="#" method="post">
+                    <div class="form-field">
+                        <label for="review-comment">Коментар</label>
+                        <textarea id="review-comment" name="comment" required></textarea>
+                    </div>
+                    <p class="form-note">Новото ревю ще се появи най-отгоре.</p>
+                    <button class="button" type="submit">Изпрати ревю</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content container">
+            <p>© 2026 EastGate Motors</p>
+            <p>Цените, характеристиките и офертите са примерни.</p>
+        </div>
+    </footer>
+</body>
+</html>
