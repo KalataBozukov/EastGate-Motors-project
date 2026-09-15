@@ -9,14 +9,6 @@ Car import website built with HTML, CSS, and JavaScript, featuring product pages
 - Review form that adds new customer reviews
 - Responsive layout for desktop and mobile devices
 
-## Vehicles
-
-- Mercedes-Benz E 220 d
-- BMW 530i xDrive
-- Audi A6 45 TFSI quattro
-- Genesis G80 2.5T AWD
-- Hyundai Palisade 2.2 CRDi 4WD
-
 ## Technologies
 
 - HTML5
